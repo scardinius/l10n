@@ -1,10 +1,4 @@
 #!/bin/bash
-# LC=$1
-# echo "Preparing locale: $LC..."
-# ./bin/compile-mo-files.sh $LC
-# mkdir $LC
-# cp workdir/mo/$LC/civicrm.mo $LC
-
 declare -a ARRAY
 exec 10<&0
 exec < $1
@@ -20,4 +14,4 @@ while read LC; do
   cp workdir/mo/$LC/civicrm.mo $LC
 done
 
-echo "Konec"
+echo "To je konec :-)"
