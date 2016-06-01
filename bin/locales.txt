@@ -1,0 +1,11 @@
+da_DK
+de_DE
+el_GR
+es_ES
+fr_FR
+it_IT
+nl_NL
+pl_PL
+pt_PT
+ro_RO
+sv_SE
